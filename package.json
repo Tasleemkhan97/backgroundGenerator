@@ -1,0 +1,22 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "Can be used at any website for dynamic color change option for users",
+  "main": "backgroundJs.js",
+  "scripts": {
+    "build": "browserify backgroundJs.js > bundle.js && live-server --open=backgroundHtml.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tasleemkhan97/Background-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tasleemkhan97/Background-Generator/issues"
+  },
+  "homepage": "https://github.com/Tasleemkhan97/Background-Generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
